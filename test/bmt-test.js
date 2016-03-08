@@ -5,7 +5,7 @@ var expect = require('chai').expect;
 var buf = new Buffer('hello world');
 var oldBuf = new Buffer('hello world');
 var newBuf = trans.invertTransform(buf, (err, data) => {
-  console.log('invert has occured');
+  console.log('bitmap test');
 }, 0, 0);
 
 describe('testing transform function', function() {
